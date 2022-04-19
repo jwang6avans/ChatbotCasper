@@ -44,7 +44,7 @@ const ChatBotHelper = () => {
   const steps = [
     {
       id: "1",
-      message: "What is your participation number?",
+      message: "What is your participation number? :)",
       trigger: "2",
     },
     {
