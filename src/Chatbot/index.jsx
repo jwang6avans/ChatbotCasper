@@ -128,7 +128,7 @@ const ChatBotHelper = () => {
     },
     {
       id: "15",
-      message: "We work with people who love to save animals. According to your personality results, I think you have the same characteristics as we are. That is, a person of worth and always have a positive attitude toward yourself! I admire your abilities and how much respect you have for yourself.",
+      message: "We work with people who love to save animals. According to your personality results, I think you have the same characteristics as we are. That is, a person of worth and always have a positive attitude toward yourself!",
       trigger: "16",
     },
     {
