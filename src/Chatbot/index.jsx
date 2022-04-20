@@ -5,21 +5,19 @@ import { ThemeProvider } from "styled-components";
 //type in terminal: npm start
 //https://lucasbassetti.com.br/react-simple-chatbot/#/
 //ctrl + C
-//npm run build
+
 
 //link to how deploy react code -> https://www.youtube.com/watch?v=Ey_90l9GaAw&t=569s
 //https://blog.logrocket.com/8-ways-deploy-react-app-free/#vercel
 
-//push the edit to the netlify through github
+//npm run build
 //git add .
 //git commit -m "changes"
-//git commit -m "Deployed website"
-//git push
-
+//git push                           --push the edit to the netlify through github
 //npm run deploy
 
 //git show-ref
-//git fetch   --update all new info from github
+//git fetch                          --update all new info from github
 // git checkout gh-pages // go to the gh-pages branch
 // git rebase master // bring gh-pages up to date with master
 // git push origin gh-pages // commit the changes
@@ -52,7 +50,7 @@ const ChatBotHelper = () => {
   const steps = [
     {
       id: "1",
-      message: "What is your participation number? :)",
+      message: "What is your participation number?",
       trigger: "2",
     },
     {
