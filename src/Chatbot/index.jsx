@@ -2,21 +2,22 @@ import React from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 
-//type in terminal: npm start
+//type in terminal: npm start       --- shows a test browser in localhost
 //https://lucasbassetti.com.br/react-simple-chatbot/#/
-//ctrl + C
+//ctrl + C                          --- quit test  browser in localhost
 
 
 //link to how deploy react code -> https://www.youtube.com/watch?v=Ey_90l9GaAw&t=569s
 //https://blog.logrocket.com/8-ways-deploy-react-app-free/#vercel
+//https://jwang6avans.github.io/ChatbotCasper/
 
-//npm run build
+//npm run build                     -- follow these commands to deploy/update the website
 //git add .
 //git commit -m "changes"
 //git push                           --push the edit to the netlify through github
 //npm run deploy
 
-//git show-ref
+//git show-ref                       -- show git info
 //git fetch                          --update all new info from github
 // git checkout gh-pages // go to the gh-pages branch
 // git rebase master // bring gh-pages up to date with master
@@ -77,7 +78,7 @@ const ChatBotHelper = () => {
     },
     {
       id: "6",
-      message: "Best Friend is supporting abandoned cats and dogs from being killed in America’s shelters because of the lack of resources. We aim to help every shelter in every community to reach the no-kill benchmark of 90% by 2025.  ",
+      message: "Best Friend is supporting abandoned cats and dogs from being killed in America’s shelters because of the lack of resources. We aim to help every shelter in every community to reach the no-kill benchmark of 90% by 2025.",
       trigger: "7",
     },
     {
@@ -94,7 +95,7 @@ const ChatBotHelper = () => {
     },
     {
       id: "9",
-      message: "Well, I found that you are an amazing person with many good qualities which make you the perfect supporter to assist us.",
+      message: "Well, I found that you do things very well where you have very much to be proud of. This make you the perfect supporter to assist us!",
       trigger: "10",
     },
     {
@@ -111,12 +112,12 @@ const ChatBotHelper = () => {
     },
     {
       id: "12",
-      message: "This means that 3.5 million cats and dogs were being saved! We need your help more than ever to get across the finish line. I think that you are the reason for our pets to smile again! Because your personality test shows that you do things very well where you have much to be proud of!",
+      message: "This means that 3.5 million cats and dogs were being saved! We need your help more than ever to get across the finish line. I believe that you can make our pets smile again because your results show that you are an amazing person with many good qualities.",
       trigger: "13",
     },
     {
       id: "13",
-      message: "Would you like to know more about us?",
+      message: "Interested to find out more about us?",
       trigger: "14",
     },
     {
@@ -128,12 +129,12 @@ const ChatBotHelper = () => {
     },
     {
       id: "15",
-      message: "We work with people who love to save animals. According to your personality results, I think you have the same characteristics as we are. That is, a person of worth and always have a positive attitude toward yourself!",
+      message: "We work with people who love to save animals. I believe we share a lot of similar traits, based on your personality results. It shows that you are a person of worth and someone who has really much respect for yourself!",
       trigger: "16",
     },
     {
       id: "16",
-      message: "Would you like to know how you can help us? ",
+      message: "Are you interested to find out how you can help us?",
       trigger: "17",
     },
     {
@@ -145,34 +146,29 @@ const ChatBotHelper = () => {
     },
     {
       id: "18",
-      message: "Only with a small donation of 50 cents, you can already save lives and provide homeless animals the help needed to find loving homes. You’ll not only save lives today, you’ll also ensure a bright, safe future! ",
+      message: "A donation of 50 cents will be enough to help us out! It is clear from the personality results that you're a really positive person. Positive attitudes always are something we can learn from you. Together, we can save more lives and provide loving homes for homeless animals.",
       trigger: "19",
     },
     {
       id: "19",
-      message: "Finally, I can conclude that you are an incredibly nice and amazingly friendly person! ",
+      message: "Last but not least, I'd like to leave you with my favorite quote. Do you know what it is?",
       trigger: "20",
     },
     {
       id: "20",
-      message: "Would you like to know what my favourite quote is to end this conversation?",
-      trigger: "21",
-    },
-    {
-      id: "21",
       options: [
-          { value: 1, label: "Yes", trigger: "22" },
-          { value: 2, label: "No", trigger: "22" },
+          { value: 1, label: "Yes", trigger: "21" },
+          { value: 2, label: "No", trigger: "21" },
         ],
     },
     {
-      id: "22",
-      message: "My favourite quote is: What we think, we become.",
-      trigger: "23",
+      id: "21",
+      message: "My favorite quote is: What we think, we become.",
+      trigger: "22",
     },
     {
-      id: "23",
-      message: "Thank you. Please close this application and Go back to the survey!",
+      id: "22",
+      message: "Thank you! Please close this website and Go back to the survey!",
       end:true,
     },
   ];
