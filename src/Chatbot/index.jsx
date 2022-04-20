@@ -112,7 +112,7 @@ const ChatBotHelper = () => {
     },
     {
       id: "12",
-      message: "This means that 3.5 million cats and dogs were being saved! We need your help more than ever to get across the finish line. I believe that you can make our pets smile again because your results show that you are an amazing person with many good qualities.",
+      message: "This means that 3.5 million cats and dogs were being saved! We need your help more than ever to get across the finish line. I believe you can make our pets smile again because your results show that you are an amazing person with many good qualities.",
       trigger: "13",
     },
     {
@@ -146,7 +146,7 @@ const ChatBotHelper = () => {
     },
     {
       id: "18",
-      message: "A donation of 50 cents will be enough to help us out! It is clear from the personality results that you're a really positive person. Positive attitudes always are something we can learn from you. Together, we can save more lives and provide loving homes for homeless animals.",
+      message: "A donation of 50 cents will be enough to help us out! It is clear from the personality results that you really are a positive person. Positive attitudes always are something we can learn from you. Together, we can save more lives and provide loving homes for homeless animals.",
       trigger: "19",
     },
     {
