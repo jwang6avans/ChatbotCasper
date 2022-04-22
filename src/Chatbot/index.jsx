@@ -61,11 +61,13 @@ const ChatBotHelper = () => {
     },
     {
       id: "3",
-      message: "Hi, I'm Casper and I am a virtual agent! I work at Best Friend Animal Society in America. In this conversation, I'd like to discuss your personality result whilst I'm introducing the charity to someone who has a heart of gold like you! ",
+      delay: 4000,
+      message: "Hi, I'm Casper and I am a virtual agent! I work at Best Friend Animal Society in America. In this conversation, I'd like to discuss your personality result whilst I'm introducing the charity to you. ",
       trigger: "4",
     },
     {
       id: "4",
+      delay: 2000,
       message: "Have you ever heard about Best Friend?",
       trigger: "5",
     },
@@ -78,12 +80,14 @@ const ChatBotHelper = () => {
     },
     {
       id: "6",
-      message: "Best Friend is supporting abandoned cats and dogs from being killed in America’s shelters because of the lack of resources. We aim to help every shelter in every community to reach the no-kill benchmark of 90% by 2025.",
+      delay: 5000,
+      message: "Best Friend is supporting abandoned cats and dogs from being killed in America’s shelters because of the lack of resources. The charity started to create sanctuary for animals who are homeless and need special help. Today, we came closer to our goal together with our network partners and pet lifesaving centers. ",
       trigger: "7",
     },
     {
       id: "7",
-      message: "Do you know what I've found from your personality test?",
+      delay: 4000,
+      message: "Are you interested to know what we aim for?",
       trigger: "8",
     },
     {
@@ -95,12 +99,14 @@ const ChatBotHelper = () => {
     },
     {
       id: "9",
-      message: "Well, I found that you do things very well where you have very much to be proud of. This make you the perfect supporter to assist us!",
+      delay: 5000,
+      message: "Each day, 951 animals on average are being killed in America shelters. Since 2016, we declare to change this by given help to every shelter in every community to reach the no-kill benchmark of 90% by 2025. We have made incredible process in the last 5 years. ",
       trigger: "10",
     },
     {
       id: "10",
-      message: "Do you know what it means that we are currently reaching 48% of U.S shelters that are no-kill?",
+      delay: 4000,
+      message: "Do you know what I've found from your personality test?",
       trigger: "11",
     },
     {
@@ -112,12 +118,14 @@ const ChatBotHelper = () => {
     },
     {
       id: "12",
-      message: "This means that 3.5 million cats and dogs were being saved! We need your help more than ever to get across the finish line. I believe you can make our pets smile again because your results show that you are an amazing person with many good qualities.",
+      delay: 5000,
+      message: "Well, I found that you have very much to be proud of, and that you are very competent. This makes you the perfect supporter to assist us! Everyone with love and kindness to all living being can help us save more lives.",
       trigger: "13",
     },
     {
       id: "13",
-      message: "Interested to find out more about us?",
+      delay: 4000,
+      message: "Are you interested to know how much progress we made this year?",
       trigger: "14",
     },
     {
@@ -129,12 +137,14 @@ const ChatBotHelper = () => {
     },
     {
       id: "15",
-      message: "We work with people who love to save animals. I believe we share a lot of similar traits, based on your personality results. It shows that you are a person of worth and someone who has really much respect for yourself!",
+      delay: 5000,
+      message: "This year, 48% of the 4404 shelters in U.S. have achieved a save rate of 90% or more. This means that 3.5 million cats and dogs have been saved! We need your help more than ever to get across the finish line. I believe you can make our pets smile again because your results show that you are an great person with many good qualities.",
       trigger: "16",
     },
     {
       id: "16",
-      message: "Are you interested to find out how you can help us?",
+      delay: 4000,
+      message: "Interested to find out more about us?",
       trigger: "17",
     },
     {
@@ -146,12 +156,14 @@ const ChatBotHelper = () => {
     },
     {
       id: "18",
-      message: "A donation of 50 cents will be enough to help us out! It is clear from the personality results that you really are a positive person. Positive attitudes always are something we can learn from you. Together, we can save more lives and provide loving homes for homeless animals.",
+      delay: 5000,
+      message: "We work with people who love to save animals. We respect one another and operate with love and seek to spread positivity. I believe we share a lot of similar traits, based on your personality test results. It shows that you are a person of worth and someone who has really much respect for yourself!",
       trigger: "19",
     },
     {
       id: "19",
-      message: "Last but not least, I'd like to leave you with my favorite quote. Do you know what it is?",
+      delay: 4000,
+      message: "Are you interested to find out how you can help us?",
       trigger: "20",
     },
     {
@@ -163,20 +175,41 @@ const ChatBotHelper = () => {
     },
     {
       id: "21",
-      message: "My favorite quote is: What we think, we become.",
+      delay: 5000,
+      message: "A donation of 50 cents will be enough to help us out! It is clear from the personality test results that you really are a positive person. Positive attitudes always are something that we want to share with the world. Together, we can save more lives and provide loving homes for homeless animals.",
       trigger: "22",
     },
     {
       id: "22",
-      message: "Thank you! Please close this website and Go back to the survey!",
+      delay: 4000,
+      message: "Last but not least, I'd like to leave you with my favorite quote. Do you know what it is?",
+      trigger: "23",
+    },
+    {
+      id: "23",
+      options: [
+          { value: 1, label: "Yes", trigger: "24" },
+          { value: 2, label: "No", trigger: "24" },
+        ],
+    },
+    {
+      id: "24",
+      delay: 5000,
+      message: "My favorite quote is: What we think, we become.",
+      trigger: "25",
+    },
+    {
+      id: "25",
+      message: "Thank you! Please close this website and go back to the survey!",
       end:true,
+
     },
   ];
 
   return (
     <>
       <ThemeProvider theme={CHATBOT_THEME}>
-        <ChatBot headerTitle="Chatbot" ChatBot steps={steps} floating={true}/>
+        <ChatBot headerTitle="Chatbot Casper" ChatBot steps={steps} floating={true}/>
       </ThemeProvider>
     </>
   );
