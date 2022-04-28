@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ChatbotCasper/static/css/main.fc5c2c69.css",
-    "main.js": "/ChatbotCasper/static/js/main.579b9a61.js",
+    "main.js": "/ChatbotCasper/static/js/main.eb68f22d.js",
     "static/media/Animal Charity Best Friend.png": "/ChatbotCasper/static/media/Animal Charity Best Friend.c77287c1a2c24da90b2c.png",
     "index.html": "/ChatbotCasper/index.html",
     "main.fc5c2c69.css.map": "/ChatbotCasper/static/css/main.fc5c2c69.css.map",
-    "main.579b9a61.js.map": "/ChatbotCasper/static/js/main.579b9a61.js.map"
+    "main.eb68f22d.js.map": "/ChatbotCasper/static/js/main.eb68f22d.js.map"
   },
   "entrypoints": [
     "static/css/main.fc5c2c69.css",
-    "static/js/main.579b9a61.js"
+    "static/js/main.eb68f22d.js"
   ]
 }
